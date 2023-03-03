@@ -13,8 +13,9 @@
 
 struct node
 {
-    int data,ordernumber;
+    int data,order_number;
     struct node *nextPtr;
+    int qty;
 };
 
 typedef struct node Node;
